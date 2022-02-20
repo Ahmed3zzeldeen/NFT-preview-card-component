@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+
+body {
+    font-size: 10px;
+    background-color:hsl(217, 54%, 11%);
+    max-width: 1440px;
+    min-width: 375px;
+    margin: 0;
+}
+
+*{
+    font-family:"Outfits" ,sans-serif ;
+}
+
+.card {
+    width: 300px;
+    height: 570px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+#equilibrium-img {
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#ss:hover  #equilibrium-img-avt {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color:hsla(178, 100%, 50%, 0.5);
+    background-image: url(../images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    cursor: pointer;
+}
+
+.card a {
+    display: flex;
+    align-items: center; 
+    text-decoration: none;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-family:"Outfits" ,sans-serif ;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    
+}
+
+#title:hover {
+    font-family:"Outfits" ,sans-serif ;
+    color: hsl(178, 100%, 50%);
+}
+
+
+p ,hr {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    border-color: hsl(215, 51%, 70%);
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-ETH {
+    padding-right: 5px;
+    text-align: center;
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    font-family:"Outfits" ,sans-serif ;
+}
+
+.text-clock {
+    color:hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-family:"Outfits" ,sans-serif ;
+}
+
+.author {
+    display: flex;
+    margin-top: 20px;
+}
+
+#author-img {
+    width: 3.5rem;
+    border: 1.5px solid rgb(255, 255, 255);
+    border-radius: 50px;
+
+}
+
+.author-text  {
+    padding-left: 20px;
+    font-size: 15px;
+}
+
+.author-text span {
+    color:  hsl(0, 0%, 100%);
+}
+
+footer {
+    margin-bottom: 0;
+    margin-top: 20%;
+    height: max-content;
+    background-color: hsl(216, 50%, 16%) ;
+
+}
+
+footer.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+footer.attribution a {
+    text-decoration: none;
+    color: hsl(178, 88%, 38%); 
+}
+
+#My-name {
+    color: hsl(293deg 100% 78%);
+    text-decoration: none;
+}
+
+.creation-name:hover {
+    font-family:"Outfits" ,sans-serif ;
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
